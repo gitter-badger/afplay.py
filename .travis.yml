@@ -1,0 +1,12 @@
+language: python
+env:
+  - TOXENV=py26
+  - TOXENV=py27
+  - TOXENV=py33
+  - TOXENV=py34
+  - TOXENV=pypy
+# command to install dependencies
+script: python tests/test_import_afplay.py
+branches:
+  only:
+    - master

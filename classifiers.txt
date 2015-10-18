@@ -1,0 +1,7 @@
+Environment :: MacOS X
+
+Operating System :: MacOS
+Operating System :: MacOS :: MacOS X
+
+Topic :: Multimedia
+Topic :: Multimedia :: Sound/Audio
