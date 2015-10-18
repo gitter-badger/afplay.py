@@ -23,7 +23,7 @@ custom=read(".classifiers.txt")+read("classifiers.txt")
 for l in custom:
     if l.find(" :: ")>0:
         k = l.split(" :: ")[0]
-        default = list(filter(lambda l:l.find(k)==0,default))
+        default = list(filter(lambda l:l.find(k)!=0,default))
 classifiers=default+custom
 classifiers.sort()
 
