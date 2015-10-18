@@ -20,7 +20,6 @@ def pyfiles(dir):
     return list
 
 def main():
-    print("main 1")
     dir = dirname(dirname(__file__))
     if not dir or dir==".": dir=os.getcwd()
     sys.path.append(dir)
@@ -66,7 +65,6 @@ def main():
             print("    %s = %s%s" % (k,'"%s"' % v if isstring(v) else v,"," if i!=len(kwargs) else ""))
         print(')')  
 
-    print("test")
     if len(sys.argv)==1: return
     setup(name=name,**kwargs)
 
