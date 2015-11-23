@@ -7,4 +7,4 @@ if [ -t 1 ] && [ -e ~/.command/config.sh ]; then
 	{ set -x;  . ~/.command/config.sh; { set +x; } 2>/dev/null; }
 fi
 
-( set -x; nosetests -v --with-doctest ) || exit $?
+( set -x; nosetests -v --with-doctest )
