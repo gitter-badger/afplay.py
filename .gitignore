@@ -1,6 +1,0 @@
-.github
-.make.command
-.open -a Terminal "$PWD"
-.open .
-.README
-Tests/.tests.command
