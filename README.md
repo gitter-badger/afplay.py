@@ -27,6 +27,8 @@
 Install
 -------
 
+[![Join the chat at https://gitter.im/russianidiot/afplay.py](https://badges.gitter.im/russianidiot/afplay.py.svg)](https://gitter.im/russianidiot/afplay.py?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [github.com](http://github.com/russianidiot/afplay.py):
 `pip install git+git://github.com/russianidiot/afplay.py.git`
 
